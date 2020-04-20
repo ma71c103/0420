@@ -1,0 +1,50 @@
+body {
+    background: cornflowerblue;
+}
+
+* {
+    font-family: 微軟正黑體;
+    font-weight: 500;
+}
+
+h2,
+h3,
+label {
+    color: rgb(80, 80, 80);
+}
+
+form {
+    background: white;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px 30px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 9);
+}
+
+form label {
+    letter-spacing: 1px;
+    display: inline-block;
+    min-width: 80px;
+}
+
+form input,
+form select {
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+form input[type='submit'] {
+    background: cornflowerblue;
+}
+
+form input[type='submit']:hover {
+    background: rgb(90, 128, 199);
+}
+
+form input[type='reset'] {
+    background: rgb(235, 27, 0);
+}
+
+form input[type='reset']:hover {
+    background: rgb(211, 28, 4);
+}
